@@ -1,5 +1,6 @@
 {
   "name": "language-tj3",
+  "main": "./lib/language-tj3",
   "version": "0.0.0",
   "private": true,
   "description": "TaskJuggler 3 language support for Atom",
