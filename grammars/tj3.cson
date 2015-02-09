@@ -1,0 +1,15 @@
+'fileTypes': [
+  'tjp',
+  'tji'
+]
+'name': 'TaskJuggler3'
+'patterns': [
+  {
+    "match": '#.*$'
+    "name": 'comment.line.tj3'
+  }
+  {
+    "match": '//.*$'
+    "name": 'comment.line.tj3'
+  }
+]

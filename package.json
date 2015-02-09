@@ -5,7 +5,7 @@
   "description": "TaskJuggler language support for Atom",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vizJS/language-tj3"
+    "url": "https://github.com/vizJS/atom-language-tj3"
   },
   "license": "MIT",
   "engines"
