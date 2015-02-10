@@ -11,5 +11,12 @@
     'match': '(#|\/\/).*$'
     'name': 'comment.line.tj3'
   }
-
+  {
+    'begin': '/\\*'
+    'captures':
+      '0':
+        'name': 'punctuation.definition.comment.tj3'
+    'end': '\\*/'
+    'name': 'comment.block.tj3'
+  }
 ]
