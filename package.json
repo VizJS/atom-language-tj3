@@ -4,9 +4,6 @@
   "version": "0.0.0",
   "private": true,
   "description": "TaskJuggler 3 language support for Atom",
-  "activationCommands": {
-    "atom-workspace": "language-tj3:toggle"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/vizJS/atom-language-tj3"
