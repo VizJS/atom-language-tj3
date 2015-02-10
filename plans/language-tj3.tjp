@@ -1,0 +1,6 @@
+/* Plans to make this package sufficiently awesome. */
+
+project language-tj3 "Plans for TaskJuggler language package" 2015-02-09 +1y {
+  timezone 'America/Denver'
+
+}
