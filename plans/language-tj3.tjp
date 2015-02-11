@@ -1,29 +1,63 @@
 /* Plans to make this package sufficiently awesome. */
 
-project language-tj3 "Implement TaskJuggler language-tj3 package for Atom" 2015-02-09 +1y {
+project language_tj3 "Implement TaskJuggler language_tj3 package for Atom" 2015-02-09 +1y {
   timezone 'America/Denver'
 
 }
 
-task language-tj3 "Implement TaskJuggler 3 language-tj3 package for Atom" {
+/* macros */
+#pending
+
+/* flags */
+#pending
+
+/* accounts */
+#pending
+
+/* shifts */
+#pending
+
+/* vacations */
+#pending
+
+/* resources */
+#required
+
+/* tasks */
+task language_tj3 "Implement TaskJuggler 3 language-tj3 package for Atom" {
   task research "Research TaskJuggler 3 and existing syntax implementations" {
     effort 30d
   }
-  task spec-def "Define language-tj3 Specifications" {
+  task spec "Define language-tj3 Specifications" {
     effort 30d
   }
   task keywords "Implement syntax coloring for TaskJuggler 3 keywords for Atom" {
     effort 30d
-    task project-keyword "Implement syntax coloring for 'project' keyword" {
+    task project_keyword "Implement syntax coloring for 'project' keyword" {
       effort 1d
     }
-    task task-keyword "Implement syntax coloring for 'task' keyword" {
+    task task_keyword "Implement syntax coloring for 'task' keyword" {
       effort 1d
     }
   }
   task snippets "Implement TaskJuggler 3 snippets for Atom" {
-    task list-snippets "Make a list of initial TaskJuggler snippets to make." {
+    task list_snippets "Make a list of initial TaskJuggler snippets to make." {
       effort 3d
     }
   }
 }
+
+/* accountreports */
+#pending
+
+/* resourcereports */
+#pending
+
+/* taskreports */
+#pending
+
+/* textreports */
+#pending
+
+/* exports */
+#pending
