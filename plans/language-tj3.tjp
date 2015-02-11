@@ -58,7 +58,7 @@ task language_tj3 "Implement TaskJuggler 3 language-tj3 package for Atom" {
       effort 30d
     }
   }
-  
+
   task snippets "Implement TaskJuggler 3 snippets for Atom" {
     task list_snippets "Make a list of initial TaskJuggler snippets to make." {
       effort 3d

@@ -11,3 +11,8 @@ describe "TaskJuggler 3 grammar", ->
   it 'parses the grammar', ->
     expect(grammar).toBeTruthy()
     expect(grammar.scopeName).toBe 'source.tj3'
+
+  describe "keywords", ->
+    it "tokenizes 'project' as a keyword", ->
+      {tokens} = grammar.tokenizeLine('project')
+      expect(tokens[0]).toEqual value: 'project', scopes: ['source.tj3', 'keyword.control.tj3']

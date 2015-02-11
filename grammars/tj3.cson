@@ -19,4 +19,8 @@
     'end': '\\*/'
     'name': 'comment.block.tj3'
   }
+  {
+    'name': 'keyword.control.tj3'
+    'match': 'project'
+  }
 ]
