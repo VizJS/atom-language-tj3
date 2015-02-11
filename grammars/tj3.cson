@@ -21,6 +21,6 @@
   }
   {
     'name': 'keyword.control.tj3'
-    'match': 'project'
+    'match': 'project|task|resource|allocate'
   }
 ]
