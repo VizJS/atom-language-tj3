@@ -37,16 +37,28 @@ task language_tj3 "Implement TaskJuggler 3 language-tj3 package for Atom" {
     effort 30d
   }
   task keywords "Implement syntax coloring for TaskJuggler 3 keywords for Atom" {
+
     task project_keyword "Implement syntax coloring for 'project' keyword" {
       effort 1d
     }
+
     task task_keyword "Implement syntax coloring for 'task' keyword" {
       effort 1d
     }
+
+    task resource_keyword "Implement syntax coloring for 'resource' keyword" {
+      effort 1d
+    }
+
+    task kw_allocate "Implement syntax coloring for 'allocate' keyword" {
+      effort 1d
+    }
+
     task additional_keywords "Implement syntax coloring for all other keywords" {
       effort 30d
     }
   }
+  
   task snippets "Implement TaskJuggler 3 snippets for Atom" {
     task list_snippets "Make a list of initial TaskJuggler snippets to make." {
       effort 3d
