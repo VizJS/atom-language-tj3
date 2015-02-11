@@ -22,9 +22,14 @@ project language_tj3 "Implement TaskJuggler language_tj3 package for Atom" 2015-
 
 /* resources */
 #required
+resource vizJS 'Jonathan David Smith of Boulder CO' {
+
+}
 
 /* tasks */
 task language_tj3 "Implement TaskJuggler 3 language-tj3 package for Atom" {
+  allocate vizJS
+
   task research "Research TaskJuggler 3 and existing syntax implementations" {
     effort 30d
   }
@@ -32,12 +37,14 @@ task language_tj3 "Implement TaskJuggler 3 language-tj3 package for Atom" {
     effort 30d
   }
   task keywords "Implement syntax coloring for TaskJuggler 3 keywords for Atom" {
-    effort 30d
     task project_keyword "Implement syntax coloring for 'project' keyword" {
       effort 1d
     }
     task task_keyword "Implement syntax coloring for 'task' keyword" {
       effort 1d
+    }
+    task additional_keywords "Implement syntax coloring for all other keywords" {
+      effort 30d
     }
   }
   task snippets "Implement TaskJuggler 3 snippets for Atom" {
