@@ -21,7 +21,7 @@
   }
   {
     'name': 'keyword.container.tj3'
-    'match': '\\b(project|task|resource)\\b'
+    'match': '\\b(project|macro|flag|account|shift|vacation|resource|task|accountreport|resourcereport|taskreport|textreport|export)\\b'
   }
   {
     'name': 'keyword.control.tj3'
