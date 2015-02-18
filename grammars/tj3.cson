@@ -20,7 +20,27 @@
     'name': 'comment.block.tj3'
   }
   {
+    'name': 'keyword.container.tj3'
+    'match': '\\b(project|task|resource)\\b'
+  }
+  {
     'name': 'keyword.control.tj3'
-    'match': 'project|task|resource|allocate'
+    'match': '\\b(allocate)\\b'
+  }
+  {
+    'name': 'string.quoted.single.tj3'
+    'begin': "'"
+    'end': "'"
+    'patterns':
+      'name': 'constant.character.escape.tj3'
+      'match': '\\.'
+  }
+  {
+    'name': 'string.quoted.double.tj3'
+    'begin': '"'
+    'end': '"'
+    'patterns':
+      'name': 'constant.character.escape.tj3'
+      'match': '\\.'
   }
 ]
